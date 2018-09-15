@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Majesty Player</string>
+    <string name="album1">Rise and Shine</string>
+    <string name="album2">Sunday School Singalong</string>
+    <string name="album3">Coldheartica</string>
+    <string name="author1">Majesty Music</string>
+    <string name="author2">Patch The Pirate</string>
+    <string name="albumName">Album Name</string>
+    <string name="albumAuthor">Album Author</string>
+    <string name="albumArt">Album Image</string>
+    <string name="play">Play icon</string>
+    <string name="icons">icons</string>
+    <string name="nowplaying">Now Playing: </string>
+    <string name="albumListbtn">Song\'s List</string>
+</resources>

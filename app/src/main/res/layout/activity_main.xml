@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <LinearLayout style="@style/lview">
+        <android.support.v7.widget.CardView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:cardBackgroundColor="@color/secondaryColor"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardCornerRadius="4dp"
+            style="@style/mainCards"
+            >
+            <LinearLayout style="@style/topLevelView">
+                <ImageView
+                    style="@style/cardImg"
+                    android:contentDescription="@string/albumArt"
+                    android:src="@drawable/riseandshine"
+                    />
+                <LinearLayout style="@style/innerlView">
+                    <TextView
+                        style="@style/albumNameText"
+                        android:text="@string/album1"
+                        />
+
+                    <TextView
+                        style="@style/albumProduceNameText"
+                        android:text="@string/author1"
+                        />
+
+                    <Button
+                        android:id="@+id/riseAndShineBtn"
+                        style="@style/cardBtn"
+                    />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/mainCards"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            app:cardBackgroundColor="@color/secondaryLightColor"
+            card_view:cardCornerRadius="4dp"
+            >
+            <LinearLayout style="@style/topLevelView">
+                <ImageView
+                    style="@style/cardImg"
+                    android:contentDescription="@string/albumArt"
+                    android:src="@drawable/sundayschoool"
+                    />
+                <LinearLayout style="@style/innerlView">
+                    <TextView
+                        style="@style/albumNameText"
+                        android:text="@string/album2"
+                        />
+                    <TextView
+                        style="@style/albumProduceNameText"
+                        android:text="@string/author2"
+                        />
+
+                    <Button
+                        android:id="@+id/sundaySchoolSingalongBtn"
+                        style="@style/cardBtn"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/mainCards"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:cardBackgroundColor="@color/secondaryDarkColor"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardCornerRadius="4dp"
+            >
+            <LinearLayout style="@style/topLevelView">
+                <ImageView
+                    style="@style/cardImg"
+                    android:contentDescription="@string/albumArt"
+                    android:src="@drawable/coldheartica"
+                    />
+                <LinearLayout style="@style/innerlView">
+                    <TextView
+                        style="@style/albumNameText"
+                        android:text="@string/album3"
+                        />
+
+                    <TextView
+                        style="@style/albumProduceNameText"
+                        android:text="@string/author2"
+                        />
+
+                    <Button
+                        android:id="@+id/coldhearticaBtn"
+                        style="@style/cardBtn"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>
